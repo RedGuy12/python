@@ -6,7 +6,7 @@ def sum(a, b):
 print(sum(5, 10))
 
 
-greet = lambda name, greeting="Hey": f'👋 {greeting} {name}'
+greet = lambda name, greeting='Hey': f'👋 {greeting} {name}'
 
 
-print(greet("Paul", "Aloha"))
+print(greet('Paul', 'Aloha'))

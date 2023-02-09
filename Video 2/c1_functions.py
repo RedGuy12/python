@@ -16,13 +16,13 @@ def say_name(name):
 say_name('Paul')
 
 
-def greet(name, greeting="Hey"):
+def greet(name, greeting='Hey'):
     '''
     Takes 2 arguments: `name` and `greeting`.
     Greets `name` using the `greeting`.
 
     >>> greeting('Aloha', 'Paul')
-    "👋 Aloha Paul!"
+    '👋 Aloha Paul!'
     '''
 
     print(f'👋 {greeting} {name}!')
@@ -31,7 +31,7 @@ def greet(name, greeting="Hey"):
 greet('Paul', 'Aloha')
 greet('Paul')
 
-greet(greeting="Hi", name="Paul")
+greet(greeting='Hi', name='Paul')
 
 
 def sum(a, b):

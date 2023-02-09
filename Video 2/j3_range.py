@@ -13,4 +13,4 @@ for number in range(10):
     print(number)
 
 for _ in range(10):
-    print("haha")
+    print('haha')
